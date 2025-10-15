@@ -1,0 +1,62 @@
+index.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sarodin Tennis & Fitness Foundation</title>
+  <meta name="description" content="Sarodin Tennis & Fitness Foundation — empowering less privileged children in Nigeria through tennis, fitness, and education." />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container header-grid">
+      <div class="brand">
+        <img src="images/logo-placeholder.png" alt="Sarodin logo" class="logo">
+        <div>
+          <h1>Sarodin Tennis & Fitness Foundation</h1>
+          <p class="tag">Empowering less privileged children through tennis & fitness</p>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#programs">Programs</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#stories">Stories</a>
+        <a href="#donate" class="btn btn-primary">Donate</a>
+        <a href="#contact" class="btn">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h2>Give a child a chance to thrive through tennis & fitness</h2>
+      <p>We help less privileged children in Nigeria through tennis and fitness scholarships — providing coaching, equipment and education to help them reach their potential.</p>
+      <div class="hero-actions">
+        <a href="#donate" class="btn btn-primary large">Donate Now</a>
+        <a href="#programs" class="btn">See Programs</a>
+      </div>
+    </section>
+
+    <section id="about" class="section container">
+      <h3>About Us</h3>
+      <p>Sarodin Tennis & Fitness Foundation is a nonprofit dedicated to supporting orphans, street children, and youths from underserved communities through free tennis coaching, fitness training and scholarships.</p>
+    </section>
+
+    <section id="contact" class="section container">
+      <h3>Contact</h3>
+      <p>Email: <a href="mailto:sarodinfitness@gmail.com">sarodinfitness@gmail.com</a></p>
+      <p>Phone: +234 8028838888</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> Sarodin Tennis & Fitness Foundation</p>
+  </footer>
+
+  <script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
